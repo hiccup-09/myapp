@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:guist/models/Drug.dart';
 // import 'package:guist/models/Drug.dart';
 import 'package:guist/services/httpservice.dart';
 import 'secondscreen.dart';

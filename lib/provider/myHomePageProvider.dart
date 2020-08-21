@@ -11,8 +11,8 @@ class MyHomePageProvider extends ChangeNotifier {
 
     // We need access to BuildContext for loading this string and it's not recommended to store this context in any variable here
     // in change notifier..
-    var response =
-        await DefaultAssetBundle.of(context).loadString('assets/mJson.json');
+    var response = await DefaultAssetBundle.of(context)
+        .loadString('assets/json/mJson.json');
     // now we have response as String from local json or and API request...
     var mJson = json.decode(response);
     // now we have a json...
